@@ -78,7 +78,6 @@
   <input type="date" name="date_d" id="date_d" value = "" required>
    <label>Date fin</label>
   <input type="date" name="date_f" id="date_f" value = "" required>
-  <label>Montant</label>
   <input type="hidden" name="client" value="{{$client}}" required>
   <input type="hidden" name="vehicule"  value="{{$vehicule->id}}" required>
         <button class="conf">Confirmer</button>

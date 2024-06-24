@@ -69,7 +69,7 @@ class location extends Controller
         return view('Board',[
             'login' => $client,
             'vehicule' => $collection,
-            'histor' => $histo
+            'histo' => $histo
         ]);
     
 }
